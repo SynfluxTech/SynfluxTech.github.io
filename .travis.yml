@@ -1,0 +1,14 @@
+language: go
+sudo: false
+dist: trusty
+before_install:
+  - pip install --user awscli
+  - export PATH=$PATH:$HOME/.local/bin
+install:
+  - go get -v github.com/spf13/hugo
+script:
+  - hugo
+  - aws s3 sync public/ s3://synflux.io --delete
+notifications:
+  email:
+on_failure: always
