@@ -19,3 +19,13 @@ collections:
       - {label: "サムネイル画像", name: "Project thumbnail", widget: "image"}
       - {label: "カテゴリー", name: "Category", widget: "string"}
       - {label: "本文", name: "body", widget: "markdown"}
+  - label: "Information" 
+    name: "Information"
+    folder: "content/information"
+    create: false # 新しいページを作ることを許可する
+    fields: # ページ作成画面で使う。Front Matterの値を書く
+      - {label: "タイトル", name: "Project Title", widget: "string"}
+      - {label: "公開日", name: "Project Date", widget: "datetime"}
+      - {label: "サムネイル画像", name: "Project thumbnail", widget: "image"}
+      - {label: "カテゴリー", name: "Category", widget: "string"}
+      - {label: "本文", name: "body", widget: "markdown"}
