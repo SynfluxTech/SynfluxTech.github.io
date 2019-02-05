@@ -1,12 +1,16 @@
 {{ partial "head.html"}}
 {{ partial "header.html"}}
-<div class="prj-header" data-v-2b05d3ea>
-    <div class="column" data-v-2b05d3ea><span class="label label" data-v-3b34421d data-v-2b05d3ea>Project</span> <span class="value" data-v-2b05d3ea>Project one</span></div>
-    <div class="column" data-v-2b05d3ea><span class="label label" data-v-3b34421d data-v-2b05d3ea>Year</span> <span class="value" data-v-2b05d3ea> {{ .Date }}</span></div>
+<div class="prj-header">
+    <div class="column"><span class="label label" >Project</span> <span
+            class="value" >One</span></div>
+    <div class="column" ><span class="label label" >Year</span> <span
+            class="value" >{{ .Date.Format "2006-01" }}</span></div>
 </div>
 <div class="content custom">
     <h1 id="project-one">{{ .Title }}</h1>
     <p>{{ .Description }}</p>
-    <p><img src="{{ .Params.project_images | relURL }}" alt="image"> </p>
+    {{ range .Params.project_images }}
+    <p><img src="{{ . | relURL }}" alt="image"></p>
+    {{ end }}
 </div>
 {{ partial "footer.html"}}

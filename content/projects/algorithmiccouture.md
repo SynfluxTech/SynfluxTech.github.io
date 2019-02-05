@@ -2,7 +2,7 @@
 title: Algorithmic Couture
 date: 2018-11-08 00:41:27 +0000
 layout: single
-type: project
+type: projects
 project_images:
 - "/img/dc/digitalcouture-7.jpg"
 - "/img/dc/digitalcouture-5.jpg"
