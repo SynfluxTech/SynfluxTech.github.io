@@ -1,7 +1,6 @@
 ---
 title: Kotaros
 date: 2019-02-05 07:59:52 +0000
-draft: true
 layout: single
 description: Co-Founder / Speculative Fashion Designer
 profile_picture: "/img/information/kotaro_sano.jpg"
