@@ -1,0 +1,39 @@
+{{partial "head.html" }}
+{{partial "header.html"}}
+<div class="content custom information">
+    <div class="row intro">
+        <div class="row people">
+            {{ with .Site.GetPage "/information" }}
+            {{ with .Site.GetPage "/kkshmz.md" }}
+            <div class="image"><img src="{{ .Params.profile_picture | relURL }}" alt=""></div>
+            <div class="text">
+                <p><strong>{{ .Title }}<br />{{ .Description }}</strong></p>
+                <p>{{ .Content }}</p>
+            </div> {{ end }}
+        </div>
+        <div class="row people">
+            {{ with .Site.GetPage "/kotaros.md" }}
+            <div class="image"><img src="{{ .Params.profile_picture | relURL }}" alt=""></div>
+            <div class="text">
+                <p><strong>{{ .Title }}<br />{{ .Description }}</strong></p>
+                <p>{{ .Content }}</p>
+            </div> {{ end }}
+        </div>
+        <div class="row people">
+            {{ with .Site.GetPage "/kzykwsk.md" }}
+            <div class="image"><img src="{{ .Params.profile_picture | relURL }}" alt=""></div>
+            <div class="text">
+                <p><strong>{{ .Title }}<br />{{ .Description }}</strong></p>
+                <p>{{ .Content }}</p>
+            </div> {{ end }}
+        </div>
+    </div>
+    {{end }}
+    <div class="row additional"></div>
+</div>
+</div>
+{{partial "footer.html"}}
+</div>
+</body>
+
+</html>
