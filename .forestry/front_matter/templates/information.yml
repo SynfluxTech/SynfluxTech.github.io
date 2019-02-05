@@ -29,4 +29,5 @@ fields:
   name: layout
   default: single
 pages:
+- content/information/kzykwsk.md
 - content/information/kotaros.md
