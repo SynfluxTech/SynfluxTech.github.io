@@ -13,6 +13,10 @@ fields:
   name: description
   label: Description
   description: 'Description of what you do ( one sentence ) '
+- type: file
+  name: profile_picture
+  label: Profile Picture
+  description: Choose the image for your profile picture
 - type: text
   hidden: true
   label: draft
