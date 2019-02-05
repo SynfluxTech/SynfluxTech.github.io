@@ -28,3 +28,5 @@ fields:
   label: layout
   name: layout
   default: single
+pages:
+- content/information/kotaros.md
