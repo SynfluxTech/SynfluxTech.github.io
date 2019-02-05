@@ -1,15 +1,26 @@
 ---
 label: Information
-hide_body: 
-is_partial: 
+hide_body: false
+is_partial: false
 fields:
 - name: title
-  label: Title
+  label: Name
   type: text
   hidden: false
   default: ''
-- name: date
-  label: Date
-  type: datetime
-  hidden: false
-  default: ''
+  description: Name in full english
+- type: text
+  name: description
+  label: Description
+  description: 'Description of what you do ( one sentence ) '
+- type: text
+  hidden: true
+  label: draft
+  name: draft
+  description: Draft or not
+  default: 'false'
+- type: text
+  hidden: true
+  label: layout
+  name: layout
+  default: single
