@@ -1,5 +1,5 @@
 ---
-title: Kzykwsk
+title: Kazuya Kawasaki
 date: 2019-02-05 08:00:00 +0000
 layout: single
 description: Co-Founder / Speculative Fashion Designer
