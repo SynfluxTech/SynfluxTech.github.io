@@ -31,3 +31,18 @@ fields:
   label: Project Images
   name: project_images
   description: 'Images from the project '
+- type: text
+  name: draft
+  label: draft
+  hidden: true
+  default: 'false'
+- type: text
+  hidden: true
+  label: layout
+  name: layout
+  default: single
+- type: text
+  name: type
+  label: type
+  hidden: true
+  default: project
