@@ -45,6 +45,6 @@ fields:
   name: type
   label: type
   hidden: true
-  default: project
+  default: projects
 pages:
 - content/projects/algorithmiccouture.md
