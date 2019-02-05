@@ -1,5 +1,5 @@
 ---
-title: Kotaros
+title: Kotaro Sano
 date: 2019-02-05 07:59:52 +0000
 layout: single
 description: Co-Founder / Speculative Fashion Designer
