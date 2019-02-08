@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Synflux</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Synflux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Feb 2019 08:00:08 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Yusuke Fujihira</title>
+      <link>http://localhost:1313/information/fujihira/</link>
+      <pubDate>Tue, 05 Feb 2019 08:00:08 +0000</pubDate>
+      
+      <guid>http://localhost:1313/information/fujihira/</guid>
+      <description>Yusuke Fujihira is algorithmic architect who is exploring design shapes that human beings can not imagine by traversing designs and systems. He practices algorithmic design not only in fashion but also in various design fields such as architecture and interior. In addition, he is a representative partner of the Archiroid LLC., that is developing an artificial intelligence architect.</description>
+    </item>
+    
+    <item>
+      <title>Kye Shimizu</title>
+      <link>http://localhost:1313/information/kkshmz/</link>
+      <pubDate>Tue, 05 Feb 2019 08:00:04 +0000</pubDate>
+      
+      <guid>http://localhost:1313/information/kkshmz/</guid>
+      <description>Kye Shimizu is a transdisciplinary design engineer that works with code to explore existing boundaries in fields such as fashion and computational design. By looking into historical, existing, and speculative references, he aims to explore the intersections we have with technology and what relationship we have in the future.</description>
+    </item>
+    
+    <item>
+      <title>Kazuya Kawasaki</title>
+      <link>http://localhost:1313/information/kzykwsk/</link>
+      <pubDate>Tue, 05 Feb 2019 08:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/information/kzykwsk/</guid>
+      <description>Kazuya is a trans-disciplinary designer to construct a bridge between fashion design and wearable technology in giving focal points to historical, existing and speculative fashion issues with science, technology and communication through design research and critique. He is researching in fashion design, wearable technology and bio design. His projects look at fashion design in the broad spectrum, from material development to the process of design in order to create fashion works to speculate on an alternative future of post-human bodies and explore how fashion design can be critical medium between human and natural / built environment.</description>
+    </item>
+    
+    <item>
+      <title>Kotaro Sano</title>
+      <link>http://localhost:1313/information/kotaros/</link>
+      <pubDate>Tue, 05 Feb 2019 07:59:52 +0000</pubDate>
+      
+      <guid>http://localhost:1313/information/kotaros/</guid>
+      <description>Kotaro belongs to Daijiro Mizuno Laboratory at Keio University SFC and is researching on the possible futures of post-human body based on design research method with keywords of fashion, dolls, death, and modification. His works are inspired by Cyberpunk Sci-Fi works like“Ghost in the Shell” or“Bladerunner”, relying on the Cybanetics or the theory of human machine, and throw a single question of“what is human being?”or“what is the elements of being a man?</description>
+    </item>
+    
+    <item>
+      <title>Algorithmic Couture</title>
+      <link>http://localhost:1313/projects/algorithmiccouture/</link>
+      <pubDate>Thu, 08 Nov 2018 00:41:27 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/algorithmiccouture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yn18ss</title>
+      <link>http://localhost:1313/projects/yn18ss/</link>
+      <pubDate>Thu, 08 Nov 2018 09:41:21 +0900</pubDate>
+      
+      <guid>http://localhost:1313/projects/yn18ss/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
