@@ -28,5 +28,4 @@ fields:
   name: layout
   default: single
 pages:
-- content/information/kzykwsk.md
 - content/information/fujihira.md
