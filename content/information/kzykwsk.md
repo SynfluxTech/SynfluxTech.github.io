@@ -2,7 +2,7 @@
 title: Kazuya Kawasaki
 date: 2019-02-05 08:00:00 +0000
 layout: single
-description: " Project Lead / Co-Founder / Speculative Fashion Designer"
+description: Project Lead / Co-Founder / Speculative Fashion Designer
 profile_picture: "/img/information/kkzy.jpg"
 
 ---
