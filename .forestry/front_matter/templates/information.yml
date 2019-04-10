@@ -28,4 +28,5 @@ fields:
   name: layout
   default: single
 pages:
+- content/information/kazuya-kawasaki.md
 - content/information/fujihira.md
