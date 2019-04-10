@@ -1,6 +1,6 @@
 ---
 label: Information
-hide_body: false
+hide_body: true
 fields:
 - name: title
   label: Name
@@ -27,6 +27,14 @@ fields:
   label: layout
   name: layout
   default: single
+- type: textarea
+  name: info_content
+  label: Main Content
+  description: Main content and description of self
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
 pages:
 - content/information/kye-shimizu.md
 - content/information/kotaro-sano.md
