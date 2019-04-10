@@ -3,7 +3,7 @@ title: Yusuke Fujihira
 date: 2019-02-05 08:00:08 +0000
 layout: single
 description: Algorithm Architect
-profile_picture: "/public/img/Profile1.png"
+profile_picture: "/img/Profile1.png"
 info_content: Yusuke Fujihira is algorithmic design engineer who is exploring design
   shapes that human beings can not imagine by traversing designs and systems.He practices
   algorithmologic design not only in fashion but also in various design fields such
