@@ -1,5 +1,5 @@
-BaseURL = "https://synflux.io"
-baseURL = "https://synflux.io"
+BaseURL = "http://synflux.io"
+baseURL = "http://synflux.io"
 languageCode = "en-us"
 title = "Synflux"
 relativeURLs = false
