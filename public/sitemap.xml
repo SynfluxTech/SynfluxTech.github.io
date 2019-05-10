@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://synflux.io/information/kye-shimizu/</loc>
+    <lastmod>2019-04-10T06:44:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://synflux.io/</loc>
+    <lastmod>2019-04-10T06:44:45+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://synflux.io/information/kotaro-sano/</loc>
+    <lastmod>2019-04-10T06:44:17+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://synflux.io/information/kazuya-kawasaki/</loc>
+    <lastmod>2019-04-10T06:42:17+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://synflux.io/information/fujihira/</loc>
+    <lastmod>2019-02-05T08:00:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://synflux.io/information/</loc>
+    <lastmod>2018-11-29T13:58:58+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://synflux.io/projects/algorithmiccouture/</loc>
+    <lastmod>2018-11-08T00:41:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://synflux.io/projects/</loc>
+    <lastmod>2018-11-08T00:41:27+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://synflux.io/projects/yn18ss/</loc>
+    <lastmod>2018-11-08T09:41:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://synflux.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://synflux.io/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
