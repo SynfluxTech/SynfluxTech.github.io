@@ -36,6 +36,7 @@ fields:
     schema:
       format: markdown
 pages:
+- content/information/yusuke-fujihira.md
 - content/information/kazuya-kawasaki.md
 - content/information/kye-shimizu.md
 - content/information/kotaro-sano.md
