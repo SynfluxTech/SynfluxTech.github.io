@@ -46,5 +46,5 @@ fields:
   hidden: true
   default: projects
 pages:
-- content/projects/algorithmiccouture.md
 - content/projects/algorithmic-couture-β.md
+- content/projects/algorithmiccouture.md
