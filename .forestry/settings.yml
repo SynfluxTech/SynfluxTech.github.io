@@ -26,7 +26,7 @@ use_front_matter_path: false
 file_template: ":filename:"
 build:
   preview_command: hugo -E -F -D -b $DEPLOY_URL -d public
-  publish_command: hugo -d public
+  publish_command: hugo -d docs
   preview_env:
   - HUGO_ENV=development
   - HUGO_VERSION=0.53
@@ -34,7 +34,7 @@ build:
   - HUGO_ENV=production
   - HUGO_VERSION=0.54
   preview_output_directory: public
-  output_directory: public
+  output_directory: docs
   instant_preview_command: hugo server -D -E -F --port 8080 --bind 0.0.0.0 --renderToDisk
     -d public
 version: '0.53'
