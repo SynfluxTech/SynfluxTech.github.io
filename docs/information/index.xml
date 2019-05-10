@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Information on Synflux</title>
+    <link>https://synflux.io/information/</link>
+    <description>Recent content in Information on Synflux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 29 Nov 2018 13:58:58 +0900</lastBuildDate>
+    
+	<atom:link href="https://synflux.io/information/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Kye Shimizu</title>
+      <link>https://synflux.io/information/kye-shimizu/</link>
+      <pubDate>Wed, 10 Apr 2019 06:44:45 +0000</pubDate>
+      
+      <guid>https://synflux.io/information/kye-shimizu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kotaro Sano</title>
+      <link>https://synflux.io/information/kotaro-sano/</link>
+      <pubDate>Wed, 10 Apr 2019 06:44:17 +0000</pubDate>
+      
+      <guid>https://synflux.io/information/kotaro-sano/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kazuya Kawasaki</title>
+      <link>https://synflux.io/information/kazuya-kawasaki/</link>
+      <pubDate>Wed, 10 Apr 2019 06:42:17 +0000</pubDate>
+      
+      <guid>https://synflux.io/information/kazuya-kawasaki/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
