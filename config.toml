@@ -1,6 +1,0 @@
-BaseURL = "https://synflux.io"
-baseURL = "https://synflux.io"
-languageCode = "en-us"
-title = "Synflux"
-relativeURLs = false
-publishDir = "docs"
