@@ -19,12 +19,32 @@
   </url>
   
   <url>
+    <loc>https://synflux.io/jp/information/kye-shimizu/</loc>
+    <lastmod>2019-04-10T06:44:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://synflux.io/jp/information/yusuke-fujihira/</loc>
+    <lastmod>2019-04-10T06:44:45+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://synflux.io/en/information/kotaro-sano/</loc>
     <lastmod>2019-04-10T06:44:17+00:00</lastmod>
   </url>
   
   <url>
+    <loc>https://synflux.io/jp/information/kotaro-sano/</loc>
+    <lastmod>2019-04-10T06:44:17+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://synflux.io/en/information/kazuya-kawasaki/</loc>
+    <lastmod>2019-04-10T06:42:17+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://synflux.io/jp/information/kazuya-kawasaki/</loc>
     <lastmod>2019-04-10T06:42:17+00:00</lastmod>
   </url>
   
@@ -45,8 +65,24 @@
   </url>
   
   <url>
+    <loc>https://synflux.io/jp/information/</loc>
+    <lastmod>2018-11-29T13:58:58+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://synflux.io/en/projects/algorithmiccouture/</loc>
     <lastmod>2018-11-08T00:41:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://synflux.io/jp/projects/algorithmiccouture/</loc>
+    <lastmod>2018-11-08T00:41:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://synflux.io/jp/</loc>
+    <lastmod>2018-11-08T00:41:27+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -61,6 +97,10 @@
   
   <url>
     <loc>https://synflux.io/en/information/synflux-ltd/</loc>
+  </url>
+  
+  <url>
+    <loc>https://synflux.io/jp/information/synflux-ltd/</loc>
   </url>
   
   <url>

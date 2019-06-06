@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jps on Synflux</title>
+    <link>https://synflux.io/jp/</link>
+    <description>Recent content in Jps on Synflux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Nov 2018 00:41:27 +0000</lastBuildDate>
+    
+	<atom:link href="https://synflux.io/jp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Algorithmic Couture α</title>
+      <link>https://synflux.io/jp/projects/algorithmiccouture/</link>
+      <pubDate>Thu, 08 Nov 2018 00:41:27 +0000</pubDate>
+      
+      <guid>https://synflux.io/jp/projects/algorithmiccouture/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
