@@ -35,3 +35,8 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+- name: priority
+  type: text
+  config:
+    required: false
+  label: priority
