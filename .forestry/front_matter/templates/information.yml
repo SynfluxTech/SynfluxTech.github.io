@@ -37,6 +37,6 @@ fields:
       format: markdown
 pages:
 - content/information/kotaro-sano.md
-- content/information/yusuke-fujihira.md
-- content/information/kazuya-kawasaki.md
 - content/information/kye-shimizu.md
+- content/information/kazuya-kawasaki.md
+- content/information/yusuke-fujihira.md
