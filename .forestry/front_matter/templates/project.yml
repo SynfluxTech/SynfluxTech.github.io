@@ -45,3 +45,9 @@ fields:
   label: type
   hidden: true
   default: projects
+- name: priority
+  type: text
+  config:
+    required: false
+  label: priority
+  hidden: false
