@@ -8,7 +8,7 @@ sections:
   path: content/jp/information
   label: JP Information
   create: all
-  match: "**/*"
+  match: "*"
   templates:
   - information
 - type: directory
