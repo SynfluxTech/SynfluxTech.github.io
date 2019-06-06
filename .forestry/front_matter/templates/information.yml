@@ -40,3 +40,5 @@ fields:
   config:
     required: false
   label: priority
+pages:
+- content/en/information/synflux-ltd.md
