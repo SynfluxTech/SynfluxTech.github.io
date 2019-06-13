@@ -45,6 +45,9 @@ fields:
   label: type
   hidden: true
   default: projects
-pages:
-- content/projects/algorithmiccouture.md
-- content/projects/algorithmic-couture-β.md
+- name: priority
+  type: text
+  config:
+    required: false
+  label: priority
+  hidden: false

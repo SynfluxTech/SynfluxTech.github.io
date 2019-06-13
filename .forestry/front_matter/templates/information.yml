@@ -35,7 +35,10 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+- name: priority
+  type: text
+  config:
+    required: false
+  label: priority
 pages:
-- content/information/kotaro-sano.md
-- content/information/kye-shimizu.md
-- content/information/kazuya-kawasaki.md
+- content/en/information/synflux-ltd.md
