@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Synflux Ltd. on My blog</title>
+    <link>https://synflux.io/about-us/</link>
+    <description>Recent content in Synflux Ltd. on My blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 29 Nov 2018 13:58:58 +0900</lastBuildDate>
+    
+	<atom:link href="https://synflux.io/about-us/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Kye Shimizu</title>
+      <link>https://synflux.io/about-us/kye-shimizu/</link>
+      <pubDate>Wed, 10 Apr 2019 06:44:45 +0000</pubDate>
+      
+      <guid>https://synflux.io/about-us/kye-shimizu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yusuke Fujihira</title>
+      <link>https://synflux.io/about-us/yusuke-fujihira/</link>
+      <pubDate>Wed, 10 Apr 2019 06:44:45 +0000</pubDate>
+      
+      <guid>https://synflux.io/about-us/yusuke-fujihira/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kotaro Sano</title>
+      <link>https://synflux.io/about-us/kotaro-sano/</link>
+      <pubDate>Wed, 10 Apr 2019 06:44:17 +0000</pubDate>
+      
+      <guid>https://synflux.io/about-us/kotaro-sano/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kazuya Kawasaki</title>
+      <link>https://synflux.io/about-us/kazuya-kawasaki/</link>
+      <pubDate>Wed, 10 Apr 2019 06:42:17 +0000</pubDate>
+      
+      <guid>https://synflux.io/about-us/kazuya-kawasaki/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Synflux Ltd.</title>
+      <link>https://synflux.io/about-us/synflux-ltd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://synflux.io/about-us/synflux-ltd/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

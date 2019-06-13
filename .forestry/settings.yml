@@ -5,24 +5,12 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: content/jp
-  label: JP Information
-  create: all
-  match: "*"
-  templates:
-  - information
-- type: directory
   path: content/jp/projects
   label: JP Projects
   create: all
   match: "**/*"
   templates:
   - project
-- type: directory
-  path: content/en/information
-  label: EN Information
-  create: all
-  match: "**/*"
 - type: directory
   path: content/en/projects
   label: EN Projects
@@ -32,7 +20,7 @@ sections:
   path: content
   label: Pages
   create: all
-  match: "*"
+  match: "**/*"
 upload_dir: static/img
 public_path: "/img"
 front_matter_path: ''
