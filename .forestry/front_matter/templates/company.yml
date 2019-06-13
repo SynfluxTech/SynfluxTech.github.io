@@ -17,3 +17,5 @@ fields:
 - type: textarea
   name: description
   label: description
+pages:
+- content/jp/company/シンフラックス-g-k.md
