@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Synflux</title>
+    <title>My blog</title>
     <link>https://synflux.io/</link>
-    <description>Recent content on Synflux</description>
+    <description>Recent content on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 10 Apr 2019 06:44:45 +0000</lastBuildDate>
@@ -13,127 +13,73 @@
     
     <item>
       <title>Kye Shimizu</title>
-      <link>https://synflux.io/en/information/kye-shimizu/</link>
+      <link>https://synflux.io/information/kye-shimizu/</link>
       <pubDate>Wed, 10 Apr 2019 06:44:45 +0000</pubDate>
       
-      <guid>https://synflux.io/en/information/kye-shimizu/</guid>
+      <guid>https://synflux.io/information/kye-shimizu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Yusuke Fujihira</title>
-      <link>https://synflux.io/en/information/yusuke-fujihira/</link>
+      <link>https://synflux.io/information/yusuke-fujihira/</link>
       <pubDate>Wed, 10 Apr 2019 06:44:45 +0000</pubDate>
       
-      <guid>https://synflux.io/en/information/yusuke-fujihira/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>清水　快</title>
-      <link>https://synflux.io/jp/information/kye-shimizu/</link>
-      <pubDate>Wed, 10 Apr 2019 06:44:45 +0000</pubDate>
-      
-      <guid>https://synflux.io/jp/information/kye-shimizu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>藤平　裕介</title>
-      <link>https://synflux.io/jp/information/yusuke-fujihira/</link>
-      <pubDate>Wed, 10 Apr 2019 06:44:45 +0000</pubDate>
-      
-      <guid>https://synflux.io/jp/information/yusuke-fujihira/</guid>
+      <guid>https://synflux.io/information/yusuke-fujihira/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Kotaro Sano</title>
-      <link>https://synflux.io/en/information/kotaro-sano/</link>
+      <link>https://synflux.io/information/kotaro-sano/</link>
       <pubDate>Wed, 10 Apr 2019 06:44:17 +0000</pubDate>
       
-      <guid>https://synflux.io/en/information/kotaro-sano/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>佐野虎太郎</title>
-      <link>https://synflux.io/jp/information/kotaro-sano/</link>
-      <pubDate>Wed, 10 Apr 2019 06:44:17 +0000</pubDate>
-      
-      <guid>https://synflux.io/jp/information/kotaro-sano/</guid>
+      <guid>https://synflux.io/information/kotaro-sano/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Kazuya Kawasaki</title>
-      <link>https://synflux.io/en/information/kazuya-kawasaki/</link>
+      <link>https://synflux.io/information/kazuya-kawasaki/</link>
       <pubDate>Wed, 10 Apr 2019 06:42:17 +0000</pubDate>
       
-      <guid>https://synflux.io/en/information/kazuya-kawasaki/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>川崎　和也</title>
-      <link>https://synflux.io/jp/information/kazuya-kawasaki/</link>
-      <pubDate>Wed, 10 Apr 2019 06:42:17 +0000</pubDate>
-      
-      <guid>https://synflux.io/jp/information/kazuya-kawasaki/</guid>
+      <guid>https://synflux.io/information/kazuya-kawasaki/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Algorithmic Couture β</title>
-      <link>https://synflux.io/en/projects/algorithmic-couture-%CE%B2/</link>
+      <link>https://synflux.io/projects/algorithmic-couture-%CE%B2/</link>
       <pubDate>Thu, 31 Jan 2019 15:00:00 +0000</pubDate>
       
-      <guid>https://synflux.io/en/projects/algorithmic-couture-%CE%B2/</guid>
+      <guid>https://synflux.io/projects/algorithmic-couture-%CE%B2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Algorithmic Couture α</title>
-      <link>https://synflux.io/en/projects/algorithmiccouture/</link>
+      <link>https://synflux.io/projects/algorithmiccouture/</link>
       <pubDate>Thu, 08 Nov 2018 00:41:27 +0000</pubDate>
       
-      <guid>https://synflux.io/en/projects/algorithmiccouture/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Algorithmic Couture α</title>
-      <link>https://synflux.io/jp/projects/algorithmiccouture/</link>
-      <pubDate>Thu, 08 Nov 2018 00:41:27 +0000</pubDate>
-      
-      <guid>https://synflux.io/jp/projects/algorithmiccouture/</guid>
+      <guid>https://synflux.io/projects/algorithmiccouture/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Yn18ss</title>
-      <link>https://synflux.io/en/projects/yn18ss/</link>
+      <link>https://synflux.io/projects/yn18ss/</link>
       <pubDate>Thu, 08 Nov 2018 09:41:21 +0900</pubDate>
       
-      <guid>https://synflux.io/en/projects/yn18ss/</guid>
+      <guid>https://synflux.io/projects/yn18ss/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Synflux Ltd.</title>
-      <link>https://synflux.io/en/information/synflux-ltd/</link>
+      <link>https://synflux.io/information/synflux-ltd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://synflux.io/en/information/synflux-ltd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Synflux　合同会社</title>
-      <link>https://synflux.io/jp/information/synflux-ltd/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://synflux.io/jp/information/synflux-ltd/</guid>
+      <guid>https://synflux.io/information/synflux-ltd/</guid>
       <description></description>
     </item>
     
