@@ -66,4 +66,5 @@ fields:
       format: markdown
   label: Company Location
 pages:
+- content/en/company/synflux-inc.md
 - content/jp/company/シンフラックス-g-k.md
