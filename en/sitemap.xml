@@ -3,6 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://synflux.io/</loc>
+    <lastmod>2019-06-13T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://synflux.io/jp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://synflux.io/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://synflux.io/company/synflux-inc/</loc>
+    <lastmod>2019-06-13T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://synflux.io/about-us/kye-shimizu/</loc>
     <lastmod>2019-04-10T06:44:45+00:00</lastmod>
     <xhtml:link
@@ -14,22 +35,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://synflux.io/about-us/kye-shimizu/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://synflux.io/</loc>
-    <lastmod>2019-04-10T06:44:45+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://synflux.io/jp/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://synflux.io/"
                 />
   </url>
   
