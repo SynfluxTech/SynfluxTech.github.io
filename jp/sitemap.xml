@@ -19,77 +19,92 @@
   </url>
   
   <url>
-    <loc>https://synflux.io/jp/information/kye-shimizu/</loc>
+    <loc>https://synflux.io/jp/about-us/kye-shimizu/</loc>
     <lastmod>2019-04-10T06:44:45+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://synflux.io/information/kye-shimizu/"
+                href="https://synflux.io/about-us/kye-shimizu/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="jp"
-                href="https://synflux.io/jp/information/kye-shimizu/"
+                href="https://synflux.io/jp/about-us/kye-shimizu/"
                 />
   </url>
   
   <url>
-    <loc>https://synflux.io/jp/information/yusuke-fujihira/</loc>
+    <loc>https://synflux.io/jp/about-us/yusuke-fujihira/</loc>
     <lastmod>2019-04-10T06:44:45+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://synflux.io/information/yusuke-fujihira/"
+                href="https://synflux.io/about-us/yusuke-fujihira/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="jp"
-                href="https://synflux.io/jp/information/yusuke-fujihira/"
+                href="https://synflux.io/jp/about-us/yusuke-fujihira/"
                 />
   </url>
   
   <url>
-    <loc>https://synflux.io/jp/information/kotaro-sano/</loc>
+    <loc>https://synflux.io/jp/about-us/kotaro-sano/</loc>
     <lastmod>2019-04-10T06:44:17+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://synflux.io/information/kotaro-sano/"
+                href="https://synflux.io/about-us/kotaro-sano/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="jp"
-                href="https://synflux.io/jp/information/kotaro-sano/"
+                href="https://synflux.io/jp/about-us/kotaro-sano/"
                 />
   </url>
   
   <url>
-    <loc>https://synflux.io/jp/information/kazuya-kawasaki/</loc>
+    <loc>https://synflux.io/jp/about-us/kazuya-kawasaki/</loc>
     <lastmod>2019-04-10T06:42:17+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://synflux.io/information/kazuya-kawasaki/"
+                href="https://synflux.io/about-us/kazuya-kawasaki/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="jp"
-                href="https://synflux.io/jp/information/kazuya-kawasaki/"
+                href="https://synflux.io/jp/about-us/kazuya-kawasaki/"
                 />
   </url>
   
   <url>
-    <loc>https://synflux.io/jp/information/</loc>
+    <loc>https://synflux.io/jp/company/</loc>
     <lastmod>2018-11-29T13:58:58+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://synflux.io/information/"
+                href="https://synflux.io/company/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="jp"
-                href="https://synflux.io/jp/information/"
+                href="https://synflux.io/jp/company/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://synflux.io/jp/about-us/</loc>
+    <lastmod>2018-11-29T13:58:58+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://synflux.io/about-us/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://synflux.io/jp/about-us/"
                 />
   </url>
   
@@ -136,20 +151,6 @@
                 rel="alternate"
                 hreflang="jp"
                 href="https://synflux.io/jp/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://synflux.io/jp/information/synflux-ltd/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://synflux.io/information/synflux-ltd/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://synflux.io/jp/information/synflux-ltd/"
                 />
   </url>
   
