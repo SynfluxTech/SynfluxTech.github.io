@@ -13,9 +13,11 @@ fields:
   label: layout
   hidden: true
   default: single
-- type: image_gallery
-  name: project_images
-  label: project_images
+- name: company_image
+  type: file
+  config:
+    maxSize: 250
+  label: company image
 - type: textarea
   name: description
   label: description
