@@ -1,0 +1,19 @@
+---
+label: Company
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: layout
+  label: layout
+- type: image_gallery
+  name: project_images
+  label: project_images
+- type: textarea
+  name: description
+  label: description
