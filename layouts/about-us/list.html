@@ -1,8 +1,8 @@
-{{partial "head.html" }}
-{{partial "header.html"}}
+{{ partial "head.html" }}
+{{ partial "header.html"}}
 <div class="content custom information">
     <div class="row intro">
-            {{ range (where .Site.RegularPages "Section" "about-us")}}
+            {{ range (where .Site.RegularPages "Section" "company")}}
         <div class="row people">
             <div class="image"><img src="{{ .Params.profile_picture | relURL }}" alt=""></div>
             <div class="text">
