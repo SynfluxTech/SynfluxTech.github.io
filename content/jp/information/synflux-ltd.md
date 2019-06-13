@@ -4,5 +4,4 @@ info_content = "ファッションデザイナーが環境配慮的にデザイ�
 layout = "single"
 profile_picture = "/img/synflux-logo.jpg"
 title = "Synflux　合同会社"
-
 +++

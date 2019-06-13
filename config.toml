@@ -4,3 +4,15 @@ languageCode = "en-us"
 title = "Synflux"
 relativeURLs = false
 publishDir = "docs"
+
+[languages]
+    [languages.en]
+        languageName = "English"
+        title = "My blog"
+        contentDir = "content/en"
+        weight = "1"
+    [languages.jp]
+        languageName = "Japanese"
+        title = "カルナラプロジェクト"
+        contentDir = "content/jp"
+        weight = "2"
