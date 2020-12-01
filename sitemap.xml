@@ -1,91 +1,162 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-<!--  created with free sitemap generation system www.sitemapxml.jp  --> 
+
 <url>
   <loc>https://synflux.io/</loc>
-  <priority>1.0</priority>
-  <changefreq>weekly</changefreq>
+  <lastmod>2020-12-01T05:00:50+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
   <loc>https://synflux.io/people/</loc>
-  <priority>0.8</priority>
-  <changefreq>weekly</changefreq>
+  <lastmod>2020-12-01T05:00:50+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://synflux.io/process/</loc>
-  <priority>0.8</priority>
-  <changefreq>weekly</changefreq>
+  <lastmod>2020-12-01T05:00:50+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://synflux.io/projects/</loc>
-  <priority>0.8</priority>
-  <changefreq>weekly</changefreq>
+  <lastmod>2020-12-01T05:00:50+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://synflux.io/journal/</loc>
-  <priority>0.8</priority>
-  <changefreq>weekly</changefreq>
+  <lastmod>2020-12-01T05:00:50+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://synflux.io/news/</loc>
-  <priority>0.8</priority>
-  <changefreq>weekly</changefreq>
+  <lastmod>2020-12-01T05:00:50+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://synflux.io/about/</loc>
-  <priority>0.8</priority>
-  <changefreq>weekly</changefreq>
+  <lastmod>2020-12-01T05:00:50+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://synflux.io/contact/</loc>
-  <priority>0.8</priority>
-  <changefreq>weekly</changefreq>
+  <lastmod>2020-12-01T05:00:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://synflux.io/jp/</loc>
+  <lastmod>2020-12-01T05:00:50+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://synflux.io/projects/synthetic-feather/</loc>
-  <priority>0.8</priority>
-  <changefreq>weekly</changefreq>
+  <lastmod>2020-12-01T05:00:50+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://synflux.io/projects/algorithmic-couture-chimera/</loc>
-  <priority>0.8</priority>
-  <changefreq>weekly</changefreq>
+  <lastmod>2020-12-01T05:00:50+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://synflux.io/projects/aubik/</loc>
-  <priority>0.8</priority>
-  <changefreq>weekly</changefreq>
+  <lastmod>2020-12-01T05:00:50+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://synflux.io/projects/xenon/</loc>
-  <priority>0.8</priority>
-  <changefreq>weekly</changefreq>
+  <lastmod>2020-12-01T05:00:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://synflux.io/jp/people/</loc>
+  <lastmod>2020-12-01T05:00:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://synflux.io/jp/process/</loc>
+  <lastmod>2020-12-01T05:00:50+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://synflux.io/jp/projects/</loc>
-  <priority>0.7</priority>
-  <changefreq>weekly</changefreq>
+  <lastmod>2020-12-01T05:00:50+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://synflux.io/projects/algorithmic-couture-beta/</loc>
-  <priority>0.7</priority>
-  <changefreq>weekly</changefreq>
+  <lastmod>2020-12-01T05:00:50+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://synflux.io/projects/algorithmic-couture-alpha/</loc>
-  <priority>0.7</priority>
-  <changefreq>weekly</changefreq>
+  <lastmod>2020-12-01T05:00:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://synflux.io/jp/journal/</loc>
+  <lastmod>2020-12-01T05:00:50+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://synflux.io/journal/speculative-designer-kazuya-kawasaki-ai-fashion-sustainable/</loc>
-  <priority>0.7</priority>
-  <changefreq>weekly</changefreq>
+  <lastmod>2020-12-01T05:00:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://synflux.io/jp/news/</loc>
+  <lastmod>2020-12-01T05:00:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://synflux.io/jp/about/</loc>
+  <lastmod>2020-12-01T05:00:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://synflux.io/jp/contact/</loc>
+  <lastmod>2020-12-01T05:00:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://synflux.io/jp/projects/synthetic-feather/</loc>
+  <lastmod>2020-12-01T05:00:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://synflux.io/jp/projects/algorithmic-couture-chimera/</loc>
+  <lastmod>2020-12-01T05:00:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://synflux.io/jp/projects/aubik/</loc>
+  <lastmod>2020-12-01T05:00:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://synflux.io/jp/projects/xenon/</loc>
+  <lastmod>2020-12-01T05:00:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://synflux.io/jp/projects/algorithmic-couture-beta/</loc>
+  <lastmod>2020-12-01T05:00:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://synflux.io/jp/projects/algorithmic-couture-alpha/</loc>
+  <lastmod>2020-12-01T05:00:50+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
   <loc>https://synflux.io/jp/journal/speculative-designer-kazuya-kawasaki-ai-fashion-sustainable/</loc>
-  <priority>0.6</priority>
-  <changefreq>weekly</changefreq>
+  <lastmod>2020-12-01T05:00:50+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
+
 
 </urlset>
