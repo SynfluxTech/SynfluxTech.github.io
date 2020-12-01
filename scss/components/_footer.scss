@@ -1,0 +1,12 @@
+/* Footer */
+
+footer.container {
+  p {
+    padding: 15px 0;
+  }
+
+  @include breakpoint("<=medium") {
+    border-top: 1px solid black;
+    margin-top: 60px;
+  }
+}

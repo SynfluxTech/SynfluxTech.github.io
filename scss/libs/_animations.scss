@@ -1,0 +1,53 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeInAppear {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+  1% {
+    opacity: 0;
+    display: inline-block;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOutDisappear {
+  0% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 0;
+  }
+  100% {
+    display: none;
+  }
+}
+
+@keyframes logo_f_slide {
+  0% {
+    transform: translate(-42.509 -16) !important;
+  }
+
+  100% {
+    transform: translate(-106.5px, -16px) !important;
+  }
+}

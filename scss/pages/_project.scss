@@ -1,0 +1,78 @@
+.project {
+  @include header-top-padding();
+  position: relative;
+
+  article {
+    h1 {
+      padding: 40px 0 20px;
+    }
+
+    img {
+      width: 100%;
+      max-width: 1440px;
+      padding: 40px 0;
+
+      @include breakpoint("<=small") {
+        padding: 15px 0;
+      }
+    }
+  }
+  &__description {
+    width: 100%;
+    max-width: 1440px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    article {
+      width: 100%;
+      flex-basis: 66%;
+      margin-right: 15px;
+    }
+    ul {
+      width: 100%;
+      flex-basis: 33%;
+      margin-left: 15px;
+      p {
+        width: 100%;
+        font-size: 16px;
+        line-height: 24px;
+      }
+      li:not(.category) {
+        padding-left: 15px;
+      }
+    }
+
+    @include breakpoint("<=small") {
+      display: block;
+      article {
+        transition: height 0.5s;
+        height: 50px;
+        overflow: hidden;
+        box-shadow: 00px 4px 6px 0px rgba(0, 0, 0, 0.3);
+        font-size: 16px;
+        line-height: 24px;
+        p {
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+      article.opened {
+        // height is computed via javascript
+        box-shadow: none;
+      }
+      ul {
+        margin: 15px 0;
+      }
+    }
+  }
+  &__readmore {
+    @include breakpoint(">small") {
+      display: none;
+    }
+    @include breakpoint("<=small") {
+      font-size: 16px;
+      margin: 10px 0;
+      text-align: left;
+    }
+  }
+}

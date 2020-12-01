@@ -1,0 +1,54 @@
+.people {
+  @include header-top-padding();
+  .sub-header ul {
+    justify-content: flex-start;
+    li {
+      margin-right: 15px;
+    }
+  }
+  article {
+    display: flex;
+    flex-wrap: wrap;
+    @include breakpoint("<=medium") {
+      justify-content: space-between;
+    }
+    .member {
+      display: inline-block;
+      flex-basis: 30%;
+      padding-bottom: 20px;
+      transition: opacity 0.5s 0.5s;
+      animation-duration: 0.5s;
+      animation-name: fadeInAppear;
+      animation-fill-mode: forwards;
+      h4 {
+        margin: 10px 0;
+      }
+
+      img {
+        width: 80%;
+        padding-right: 10px;
+        padding-bottom: 10px;
+
+        @include breakpoint("<=medium") {
+          // ~ 1024
+          width: 100%;
+          padding: 0;
+        }
+      }
+      @include breakpoint("<medium") {
+        // ~768
+        flex-basis: calc(50% - 7.5px);
+      }
+      @include breakpoint("medium") {
+        // 768 ~ 1024
+        flex-basis: calc(50% - 15px);
+      }
+    }
+    .member.hidden {
+      animation-duration: 0.5s;
+      animation-name: fadeOutDisappear;
+      animation-fill-mode: forwards;
+      display: none;
+    }
+  }
+}

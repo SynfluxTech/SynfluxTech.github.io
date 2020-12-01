@@ -1,0 +1,239 @@
+.journal__post {
+  @include header-top-padding();
+  display: flex;
+
+  // width
+  @include breakpoint(">large") {
+    main {
+      flex-basis: 1280px;
+    }
+    aside {
+      width: auto;
+      flex-basis: auto;
+      display: inline-block;
+      padding-left: 45px;
+    }
+  }
+  @include breakpoint("large") {
+    main {
+      width: 75%;
+    }
+    aside {
+      width: 25%;
+      padding-left: 30px;
+    }
+  }
+  @include breakpoint("medium") {
+    flex-direction: column;
+    main {
+      width: 100%;
+    }
+    aside {
+      margin-top: 60px;
+      border-top: solid $light-line 1px;
+      width: 100%;
+    }
+  }
+  @include breakpoint("<=small") {
+    flex-direction: column;
+    main {
+      width: 100%;
+    }
+    aside {
+      margin-top: 60px;
+      border-top: solid $light-line 1px;
+      width: 100%;
+    }
+  }
+
+  main {
+    display: block;
+    flex-shrink: 0;
+
+    header {
+      width: 100%;
+      display: block;
+      position: relative;
+      background-color: inherit;
+      z-index: inherit;
+      * {
+        margin: 30px auto;
+        text-align: left;
+      }
+      @include breakpoint(">large") {
+        .journal__title {
+          font-size: 30px;
+        }
+        .journal__sub_title {
+          font-size: 30px;
+        }
+        .journal__info {
+          font-size: 30px;
+        }
+        .journal__author {
+          font-size: 30px;
+        }
+      }
+      @include breakpoint("large") {
+        .journal__title {
+          font-size: 30px;
+        }
+        .journal__sub_title {
+          font-size: 30px;
+        }
+        .journal__info {
+          font-size: 30px;
+        }
+        .journal__author {
+          font-size: 24px;
+        }
+      }
+      @include breakpoint("medium") {
+        .journal__title {
+          font-size: 30px;
+        }
+        .journal__sub_title {
+          font-size: 30px;
+        }
+        .journal__info {
+          font-size: 30px;
+        }
+        .journal__author {
+          font-size: 20px;
+        }
+      }
+      @include breakpoint("<=small") {
+        width: 100%;
+        border-bottom: solid 1px black;
+        .journal__title {
+          font-size: 30px;
+        }
+        .journal__sub_title {
+          font-size: 20px;
+        }
+        .journal__info {
+          font-size: 16px;
+        }
+        .journal__author {
+          font-size: 20px;
+        }
+      }
+    }
+    article {
+      color: $font-black;
+      h3,
+      p {
+        word-break: break-word;
+      }
+      @include breakpoint(">large") {
+        h3 {
+          text-decoration: underline;
+          font-size: 24px;
+          line-height: 36px;
+          margin: 30px 0;
+        }
+        p {
+          font-size: 20px;
+          line-height: 36px;
+          margin: 30px 0;
+        }
+        img {
+          width: 100%;
+          margin: 60px 0;
+        }
+      }
+      @include breakpoint("large") {
+        h3 {
+          text-decoration: underline;
+          font-size: 24px;
+          line-height: 36px;
+          margin: 30px 0;
+        }
+        p {
+          font-size: 20px;
+          line-height: 36px;
+          margin: 30px 0;
+        }
+        img {
+          width: 100%;
+          margin: 30px 0;
+        }
+      }
+      @include breakpoint("medium") {
+        h3 {
+          text-decoration: underline;
+          font-size: 24px;
+          line-height: 36px;
+          margin: 20px 0;
+        }
+        p {
+          font-size: 20px;
+          line-height: 36px;
+          margin: 15px 0;
+        }
+        img {
+          width: 100%;
+          margin: 15px 0;
+        }
+      }
+      @include breakpoint("<=small") {
+        h3 {
+          text-decoration: underline;
+          font-size: 20px;
+          line-height: 36px;
+          margin: 15px 0;
+        }
+        p {
+          font-size: 16px;
+          line-height: 24px;
+          margin: 8px 0;
+        }
+        img {
+          width: 100%;
+          margin: 15px 0;
+        }
+      }
+      iframe {
+        width: 100%;
+      }
+      .fn {
+        font-size: 12px;
+        vertical-align: super;
+        margin-right: 10px;
+      }
+    }
+  }
+  aside {
+    flex-basis: auto;
+    position: relative;
+    .date {
+      @include breakpoint(">=large") {
+        font-size: 30px;
+        margin: 30px 0;
+      }
+      @include breakpoint("<=medium") {
+        font-size: 20px;
+        margin: 15px 0;
+      }
+    }
+    p {
+      font-size: 20px;
+      margin: 15px 0;
+      // font-style: italic;
+
+      @include breakpoint("<=small") {
+        font-size: 16px;
+      }
+    }
+    .fn_contents {
+      @include breakpoint(">=large") {
+        position: absolute;
+        display: block;
+      }
+    }
+    iframe {
+      width: 100%;
+      margin: 15px 0;
+    }
+  }
+}

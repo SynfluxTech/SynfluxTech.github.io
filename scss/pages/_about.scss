@@ -1,0 +1,122 @@
+.about {
+  @include header-top-padding();
+
+  article {
+    margin-bottom: 80px;
+
+    h4 {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__top {
+    width: 100%;
+    @include breakpoint("<=medium") {
+      margin: 30px 0;
+    }
+    @include breakpoint(">medium") {
+      margin: 60px 0;
+    }
+  }
+
+  &__description {
+    margin: 60px 0;
+    display: flex;
+    justify-content: start;
+
+    @include breakpoint("<=medium") {
+      margin: 15px 0;
+      flex-direction: column;
+      p,
+      a {
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+    }
+    @include breakpoint(">medium") {
+      p {
+        flex-basis: 60%;
+        margin-right: 60px;
+      }
+      a {
+        font-size: 20px;
+        color: #c3c3c3;
+      }
+    }
+  }
+
+  &__awards {
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: solid 0.5px $light-line;
+    display: flex;
+    @include breakpoint(">=medium") {
+      justify-content: flex-start;
+      p {
+        padding-right: 15px;
+      }
+    }
+  }
+  &__awards__header {
+    @include breakpoint("<=small") {
+      display: none;
+    }
+    p {
+      padding: 30px 0;
+      color: $font-grey;
+      &:nth-of-type(1) {
+        flex-basis: 10%;
+      }
+      &:nth-of-type(2) {
+        flex-basis: 50%;
+      }
+      &:nth-of-type(3) {
+        flex-basis: auto;
+      }
+    }
+  }
+  &__awards__item {
+    @include breakpoint("<small") {
+      flex-direction: column;
+      p {
+        font-size: 14px;
+
+        a {
+          font-size: 16px;
+        }
+      }
+    }
+    p {
+      @include breakpoint(">=medium") {
+        // -webkit-text-stroke: 1px #000;
+        // color: transparent;
+      }
+      @include breakpoint(">=small") {
+        &:nth-of-type(1) {
+          flex-basis: 10%;
+        }
+        &:nth-of-type(2) {
+          flex-basis: 50%;
+        }
+        &:nth-of-type(3) {
+          flex-basis: auto;
+        }
+      }
+    }
+  }
+
+  .social_media {
+    ul {
+      li {
+        margin: 30px 0;
+        br {
+          @include breakpoint(">=medium") {
+            display: none;
+          }
+        }
+        a {
+        }
+      }
+    }
+  }
+}

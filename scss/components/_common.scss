@@ -1,0 +1,72 @@
+html {
+  width: 100%;
+  background-color: $bg-white;
+  visibility: hidden;
+  scroll-behavior: smooth;
+}
+html.wf-active {
+  visibility: visible;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: $MainFontFamily;
+  word-break: break-all;
+  -webkit-text-size-adjust: none;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+// common global variables
+$content-max-width: 1920px;
+$side-margin: 45px;
+
+/* break points
+large: (981px, 1280px),
+medium: (769px, 980px),
+small: (481px, 768px),
+xsmall: (361px, 480px),
+xxsmall: (null, 360px)));
+*/
+
+body > section.container {
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+
+  overflow: hidden;
+
+  @include breakpoint("<=small") {
+    // ~ 480px
+    width: calc(100vw - 2 * 15px);
+  }
+
+  @include breakpoint(">=medium") {
+    // 769px ~
+    width: calc(100vw - 2 * 30px);
+  }
+
+  @include breakpoint(">large") {
+    // 1280px ~
+    width: calc(100vw - 2 * 30px);
+  }
+
+  @include breakpoint("xlarge") {
+    // 1440px ~
+    width: calc(100vw - 2 * 30px);
+  }
+
+  @include breakpoint(">xlarge") {
+    // 1920px ~
+    width: $content-max-width;
+  }
+}

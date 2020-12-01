@@ -1,0 +1,7 @@
+.contact {
+  @include header-top-padding();
+
+  p {
+    margin: 60px 0;
+  }
+}

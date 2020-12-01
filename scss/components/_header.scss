@@ -1,0 +1,255 @@
+/* Header */
+
+header {
+  width: 100vw;
+  text-align: center;
+  position: fixed;
+  z-index: 10000;
+  
+  // headerがかぶったときの効果
+  // background-color: rgba(255, 255, 255, 0.3);
+  // backdrop-filter: blur(4px);
+
+  $nav-animation-duration: 0.5s;
+
+  .container {
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    @include header-height();
+    padding-bottom: 10px;
+    border-bottom: solid 0.5px black;
+  }
+
+  .logo {
+    display: block;
+    margin-right: auto;
+
+    img,
+    svg {
+      width: auto;
+      height: 45px;
+      margin-top: 12.5px;
+      // transition: fill $nav-animation-duration ease-in-out;
+      @include breakpoint("<=small") {
+        // under 480px
+        height: 30px;
+        margin-top: 10px;
+      }
+      @include breakpoint(">=xlarge") {
+        height: 45px;
+        margin: 12.5px 0 0;
+      }
+      path:not(.logo-s):not(.logo-f) {
+        // transition: opacity ease-in 0.6s;
+      }
+      path.logo-f {
+        // transition: transform 0.4s;
+        // transition-delay: 0.1s;
+        transform: translate(-42.509px, -16px); // default
+      }
+    }
+    &.scrolled {
+      svg {
+        path:not(.logo-s):not(.logo-f) {
+          // transition: opacity 0.5s;
+          opacity: 0;
+        }
+        path.logo-f {
+          // transition: transform 0.5s;
+          // transition-delay: 0.2s;
+          transform: translate(-106.5px, -16px) !important;
+        }
+      }
+    }
+  }
+
+  #menuButton {
+    transition: color $nav-animation-duration ease-in-out;
+  }
+
+  nav {
+    ul {
+      display: flex;
+      li {
+        @include header-line-height();
+        font-family: $MainFontFamily;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: left;
+        color: #000000;
+        margin: 0 10px;
+
+        // @include breakpoint(">=xlarge") {
+        //   font-size: 30px;
+        // }
+
+        a {
+          @include header-line-height();
+          text-decoration: none;
+          color: black;
+          &:hover,
+          &.now {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+
+    @include breakpoint("<=medium") {
+      // ハンバーガーメニュー項目
+      position: absolute;
+      display: flex;
+      position: absolute;
+      width: 100vw;
+      height: 100vh;
+
+      // ヘッダー分ずらす
+      top: $header-height;
+      @include breakpoint("<=small") {
+        top: $header-height-sp;
+      }
+      // 隠す
+      left: -100vw;
+      background-color: transparent;
+
+      ul {
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 35px;
+        li {
+          line-height: 30px;
+          margin-left: 30px;
+
+          transition: opacity $nav-animation-duration ease-in-out;
+          opacity: 0;
+
+          @include breakpoint("<=small") {
+            margin-left: 45px;
+          }
+          a {
+            font-size: 20px;
+            line-height: inherit;
+            color: white;
+          }
+
+          // JP/EN
+          &:nth-last-of-type(1) {
+            margin-top: 35px;
+          }
+        }
+      }
+    }
+  }
+
+  nav.clicked {
+    // メニューの表示
+    left: 0;
+    border-top: solid 1px white;
+    background-color: rgba(0, 0, 0, 0.85);
+    ul {
+      li {
+        opacity: 1;
+      }
+    }
+  }
+
+  button {
+    display: none;
+    @include header-height();
+    @include breakpoint("<=medium") {
+      display: block;
+      font-size: 20px;
+      @include breakpoint("<=small") {
+        display: block;
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+header.blackedOut {
+  // メニュー表示中のヘッダー部分
+  background-color: rgba(0, 0, 0, 0.8);
+  .logo svg {
+    fill: white;
+  }
+  #menuButton {
+    color: white;
+  }
+}
+
+.sub-header {
+  width: 100%;
+  h1 {
+    font-size: 12.5px;
+    font-weight: 500;
+    margin: 5px 0;
+    @include breakpoint(">medium") {
+      display: none;
+    }
+  }
+  ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+
+    @include breakpoint(">medium") {
+      margin: 30px 0 45px;
+    }
+    @include breakpoint("<=medium") {
+      flex-direction: column;
+      margin: 15px 0 30px;
+    }
+
+    li {
+      @include size-menu();
+
+      margin-right: 20px;
+      position: relative;
+      white-space: nowrap;
+
+      @include breakpoint("<=medium") {
+        // 縦
+        line-height: 26px;
+        margin: 2.5px 0;
+      }
+
+      a:hover, a.now {
+        text-decoration: underline;
+      }
+
+      p {
+        width: fit-content;
+      }
+
+      p:hover + .sub-header__sub-menu {
+        display: inline-table;
+      }
+
+      .sub-header__sub-menu:hover {
+        display: inline-table;
+      }
+
+      ul.sub-header__sub-menu {
+        margin: 0 !important;
+        padding: 10px 15px;
+        left: -15px;
+        background-color: $bg-white;
+        display: none;
+        width: max-content;
+        position: absolute;
+        flex-direction: column;
+        // backdrop-filter: blur(4px);
+        z-index: 1000;
+        li {
+          width: fit-content;
+          margin: 5px 0;
+          a {
+          }
+        }
+      }
+    }
+  }
+}
