@@ -70,3 +70,18 @@ body > section.container {
     width: $content-max-width;
   }
 }
+
+#NotFound404 {
+  @include header-top-padding();
+  h1 {
+    font-size: 40px;
+    margin: 60px 0;
+  }
+  p {
+    margin: 15px 0;
+    a {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  }
+}

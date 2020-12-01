@@ -321,6 +321,17 @@ body > section.container {
   margin: 0 auto;
   overflow: hidden; }
 
+#NotFound404 {
+  padding-top: 70px; }
+  #NotFound404 h1 {
+    margin: 60px 0;
+    font-size: 40px; }
+  #NotFound404 p {
+    margin: 15px 0; }
+    #NotFound404 p a {
+      font-weight: bold;
+      text-decoration: underline; }
+
 /* Header */
 header {
   z-index: 10000;
@@ -713,6 +724,8 @@ section#fv {
       line-height: 30px; }
     .container {
       width: calc(100vw - 2 * 30px); }
+    #NotFound404 {
+      padding-top: 70px; }
       header .container {
         height: 70px; }
         header .logo img,
@@ -1072,6 +1085,8 @@ section#fv {
   @media screen and (max-width: 768px) {
     .container {
       width: calc(100vw - 2 * 15px); }
+    #NotFound404 {
+      padding-top: 48px; }
       header .container {
         height: 48px; }
         header .logo img,
